@@ -81,3 +81,21 @@ T1E06
    //con 600: 600 minutos son 10 horas y 0 min
 
 T1E07
+public class T1E07 {
+    public static void main (String[] args) {
+        int a = 7;
+        int b = 5;
+        double random = Math.random();
+        int suma = a + b;
+        System.out.println("Suma: " + suma);
+        System.out.println("Número aleatorio: " + random);
+        /* a) La variable que cambia es el print de random.
+           b) El primer print si que sería determinista, mientras que el segundo no.
+           c) Incumple la característica del determinismo, ya que con mismos datos de
+            entrada imprime distintos resultados.
+        */
+
+    }
+}
+
+T1E08
